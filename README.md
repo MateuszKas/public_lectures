@@ -1,3 +1,6 @@
+# To repozytorium jest stopniowo wygaszane - nowe materiały będą w repozytorium [lectures](https://github.com/KAIR-ISZ/lectures).
+
+
 # Zajęcia na AGH
  Materiały do prowadzonych w Laboratorium Informatyki w Sterowaniu i Zarządzaniu
  - [Metody Numeryczne](https://github.com/KAIR-ISZ/public_lectures/tree/master/Metody%20Numeryczne%202021)
