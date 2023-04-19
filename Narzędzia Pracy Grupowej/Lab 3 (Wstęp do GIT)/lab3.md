@@ -92,7 +92,8 @@ Po utworzeniu repozytorium wejdź do niego i znajdź adresu url w następującym
  następnie go skopiuj. Możemy przystąpić do synchronizacji repozytorium lokalnego ze zdalnym.
  
  **Zadanie 4**
-1. W linii poleceń ustawionej na lokalizację folderu z repozytorium należy ustawić adres zdalnego repozytorium przy pomocy polecenia: `git remote add origin url_rezpoytorium`
+1. Wygenerować token dla użytkownika zgodnie z [instrukcją](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+2. W linii poleceń ustawionej na lokalizację folderu z repozytorium należy ustawić adres zdalnego repozytorium przy pomocy polecenia: `git remote add origin https://token@url_rezpoytorium`
 2. Następnie wgraj lokalne zmiany na serwer przy pomocy komendy: `git push -u origin master`
 3. Sprawdź w przeglądarce czy wszystkie pliki zostały umieszczone na serwerze.
 
