@@ -1,14 +1,4 @@
-
-
-
-## Introduction
-
-The aim of this laboratory is to familiarize participants with database management systems ([DBMS](https://en.wikipedia.org/wiki/Database#Database_management_system)) and the basic principles of their use in Industry 4.0. In these classes, we will use [SQLite](https://www.sqlite.org/index.html)
-
-
-
-
-## Measurement collection system simulator
+# Measurement collection system simulator
 
 The main task of database systems is to collect data for easy processing and analysis. In this part of the workshop, we will present a measurement simulator that we will use in further exercises.
 
