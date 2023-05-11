@@ -72,8 +72,6 @@ python Client.py
 ```
 to start client.
 
-If 
-
 ## Exercise:
 1. Prepare a mechanism for reading data from all sensors in the file Client.py.
 2. Suggest a database schema for the data from the measurement simulator
