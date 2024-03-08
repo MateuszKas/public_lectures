@@ -108,11 +108,11 @@ PostgreSQL also known as Postgres, is a free and open-source relational database
 
 	- url: pgsql-196447.vipserv.org:5432
 
-	- login: wbauer_adb_2023
+	- login: wbauer_adb
 
 	- password: adb2020
 
-	- database_name: wbauer_adb
+	- database_name: wbauer_adb_2023
 
 
 
