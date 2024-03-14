@@ -61,13 +61,13 @@ WHERE table_schema = 'bauer1'
 Of course, SQLAlchemy has the function to read this data:
 
 ```python
-from sqlalchemy import create_engine, MetaData, Table
+from sqlalchemy import create_engine, MetaData, Table, inspect
 
-print(db.table_names())
+print(inspect(db).get_table_names())
 
 metadata = MetaData()
 
-table = Table(table_name, metadata , autoload=True, autoload_with=db)
+table = Table('actor', metadata , autoload=True, autoload_with=db)
 
 print(repr(table))
 
