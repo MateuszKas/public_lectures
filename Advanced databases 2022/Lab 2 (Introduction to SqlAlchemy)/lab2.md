@@ -77,7 +77,7 @@ In this sript *table_name* is the string with table name in database.
 
 ## SQLAlchemy query
 
-The basic select in SQLAlchemy has form:
+The basic select in SQLAlchemy <2.0 has form :
 
 ```python
 stmt = 'select * from table'
@@ -88,6 +88,22 @@ results = db.execute(stmt).fetchall()
 # Print results
 print(results)
 ```
+and in SQLAlchemy >2.0 has form:
+
+```python
+from sqlalchemy.sql import text
+
+stmt = 'select * from table'
+
+con = db.connect()
+
+# Execute the statement and fetch the results
+results = con.execute(text('select * from actor'))
+# Print results
+print(results)
+```
+
+
 Function *execute* make a request to a database and *fetchall* method get our results from an executed query. But in this case we don't use ORM propertis. More correctly is use structur:
 
 ```python
