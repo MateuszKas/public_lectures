@@ -124,12 +124,14 @@ Book.__table__.create(engine)
 Of course, the table creation method presented in the previous section is not the only one. We can describe the table using object *Table* and create a schema of this table by function *create*.
 
 ***Example:***
+  
 For sqlAlchemy <2.0:
 ```python
 from sqlalchemy import Table, MetaData
 USER = Table('users', MetaData(bind=engine), Column('id', Integer, primary_key = True), Column('name', String(20)))
 USER.create(engine)
 ```
+
 For sqlAlchemy >2.0:
 ```python
 from sqlalchemy import Table, MetaData
